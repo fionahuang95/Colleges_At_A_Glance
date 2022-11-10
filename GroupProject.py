@@ -20,7 +20,7 @@ st.set_page_config(layout="wide")
 
 @st.cache
 def loadata():
-    data = pd.read_excel('data/data.xlsx', index_col=None)
+    data = pd.read_excel('Data/data.xlsx', index_col=None)
     return data
 
 data = loadata()
